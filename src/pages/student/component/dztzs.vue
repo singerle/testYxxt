@@ -38,17 +38,17 @@ export default {
   	}
   },
   activated(){
-  	this.getData()
-  	if(Number(this.time) == Number(this.$route.query.time)){
-  		return false
-  	}
-  	if(!this.time || Number(this.time) != Number(this.$route.query.time)){
-  		this.time = this.$route.query.time
-  	}
-  	this.timer = setTimeout(() => {
-  		this.$router.push('/dztz')
-  	},3000)
-  },
+//   	this.getData()
+//   	if(Number(this.time) == Number(this.$route.query.time)){
+//   		return false
+//   	}
+//   	if(!this.time || Number(this.time) != Number(this.$route.query.time)){
+//   		this.time = this.$route.query.time
+//   	}
+//   	this.timer = setTimeout(() => {
+//   		this.$router.push('/dztz')
+//   	},3000)
+//   },
 //   deactivated(){
 //   	this.timer && clearTimeout(this.timer)
 //   }
