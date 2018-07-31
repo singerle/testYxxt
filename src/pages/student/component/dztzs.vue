@@ -49,9 +49,9 @@ export default {
   		this.$router.push('/dztz')
   	},3000)
   },
-  deactivated(){
-  	this.timer && clearTimeout(this.timer)
-  }
+//   deactivated(){
+//   	this.timer && clearTimeout(this.timer)
+//   }
 }
 </script>
 <style scoped lang="stylus" rel="stylesheet/stylus">
